@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: searchservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: searchservice-application   # This should match the label in template.metadata.labels
+  template:
+    metadata:
+      labels:
+        app: searchservice-application
+    spec:
+      containers:
+        - name: searchservice-services-application
+          image: empoweridregistry.azurecr.io/searchservice:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
