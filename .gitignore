@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/SearchService.DTO/bin/Debug/net6.0
+/Search.Service/bin/Debug/net6.0
+/Search.Service/obj
+/SearchService.Base/bin/Debug/net6.0
+/SearchService.Base/obj
+/SearchService.DTO/obj
+/SearchService.Models/bin/Debug/net6.0
+/SearchService.Models/obj
+/SearchService.Services/bin/Debug/net6.0
+/SearchService.Services/obj
+/Search.Service/bin/Release/net6.0
+/SearchService.Base/bin/Release/net6.0
+/SearchService.DTO/bin/Release/net6.0
+/SearchService.Models/bin/Release/net6.0
+/SearchService.Services/bin/Release/net6.0
+/.vs/Search.Service
+/Search.Service/.vs
+/SearchService.Tests/bin
+/SearchService.Tests/obj
